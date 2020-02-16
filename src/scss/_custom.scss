@@ -1,1 +1,6 @@
 // Here you can add other styles
+
+table tr > td {
+    vertical-align: middle !important;
+    padding: .5rem 0 !important;
+}

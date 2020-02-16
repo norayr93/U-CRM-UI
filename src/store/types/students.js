@@ -1,0 +1,23 @@
+const typePrefix = 'students';
+
+export const CLEAR_ACTION_RESULT_STUDENTS = `${typePrefix}/CLEAR_ACTION_RESULT_STUDENTS`;
+
+export const GET_ALL_STUDENTS_REQUEST = `${typePrefix}/GET_ALL_STUDENTS_REQUEST`;
+export const GET_ALL_STUDENTS_SUCCESS = `${typePrefix}/GET_ALL_STUDENTS_SUCCESS`;
+export const GET_ALL_STUDENTS_FAIL = `${typePrefix}/GET_ALL_STUDENTS_FAIL`;
+
+export const GET_ONE_STUDENT_REQUEST = `${typePrefix}/GET_ONE_STUDENT_REQUEST`;
+export const GET_ONE_STUDENT_SUCCESS = `${typePrefix}/GET_ONE_STUDENT_SUCCESS`;
+export const GET_ONE_STUDENT_FAIL = `${typePrefix}/GET_ONE_STUDENT_FAIL`;
+
+export const CREATE_NEW_STUDENT_REQUEST = `${typePrefix}/CREATE_NEW_STUDENT_REQUEST`;
+export const CREATE_NEW_STUDENT_SUCCESS = `${typePrefix}/CREATE_NEW_STUDENT_SUCCESS`;
+export const CREATE_NEW_STUDENT_FAIL = `${typePrefix}/CREATE_NEW_STUDENT_FAIL`;
+
+export const UPDATE_STUDENT_REQUEST = `${typePrefix}/UPDATE_STUDENT_REQUEST`;
+export const UPDATE_STUDENT_SUCCESS = `${typePrefix}/UPDATE_STUDENT_SUCCESS`;
+export const UPDATE_STUDENT_FAIL = `${typePrefix}/UPDATE_STUDENT_FAIL`;
+
+export const DELETE_STUDENT_REQUEST = `${typePrefix}/DELETE_STUDENT_REQUEST`;
+export const DELETE_STUDENT_SUCCESS = `${typePrefix}/DELETE_STUDENT_SUCCESS`;
+export const DELETE_STUDENT_FAIL = `${typePrefix}/DELETE_STUDENT_FAIL`;

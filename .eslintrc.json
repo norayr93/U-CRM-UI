@@ -1,0 +1,56 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "modules": true,
+        "jsx": true
+      },
+      "ecmaVersion": 2019,
+      "sourceType": "module"
+    },
+    "globals": {
+        "Promise": true,
+        "chrome": true,
+        "__DEV__": true
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "commonjs": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "react-app"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "quotes": ["error", "single"],
+        "no-console": ["error", {"allow": ["info", "error"]}],
+        "no-debugger": "error",
+        "no-var": "error",
+        "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 1, "maxBOF": 0}],
+        "no-trailing-spaces": "error",
+        "object-curly-spacing": ["error", "never"],
+        "react/jsx-uses-react": "error",
+        "semi": ["error", "always"],
+        "react/jsx-uses-vars": "error",
+        "comma-dangle": ["error", "always-multiline"],
+        "no-unused-vars": [
+            "error",
+            {
+            "vars": "local",
+            "args": "none"
+            }
+        ],
+        "max-len": ["error", {
+            "code": 120,
+            "comments": 80,
+            "ignoreUrls": true
+        }]
+    }
+  }

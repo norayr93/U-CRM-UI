@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Nav, NavItem, NavLink, Progress, TabContent, TabPane, ListGroup, ListGroupItem } from 'reactstrap';
+import React, {Component} from 'react';
+import {Nav, NavItem, NavLink, Progress, TabContent, TabPane, ListGroup, ListGroupItem} from 'reactstrap';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { AppSwitch } from '@coreui/react'
+import {AppSwitch} from '@coreui/react';
 
 const propTypes = {
   children: PropTypes.node,
@@ -38,7 +38,7 @@ class DefaultAside extends Component {
       <React.Fragment>
         <Nav tabs>
           <NavItem>
-            <NavLink className={classNames({ active: this.state.activeTab === '1' })}
+            <NavLink className={classNames({active: this.state.activeTab === '1'})}
                      onClick={() => {
                        this.toggle('1');
                      }}>
@@ -46,7 +46,7 @@ class DefaultAside extends Component {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={classNames({ active: this.state.activeTab === '2' })}
+            <NavLink className={classNames({active: this.state.activeTab === '2'})}
                      onClick={() => {
                        this.toggle('2');
                      }}>
@@ -54,7 +54,7 @@ class DefaultAside extends Component {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={classNames({ active: this.state.activeTab === '3' })}
+            <NavLink className={classNames({active: this.state.activeTab === '3'})}
                      onClick={() => {
                        this.toggle('3');
                      }}>

@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Provider} from 'react-redux';
+import {HashRouter, Route, Switch} from 'react-router-dom';
+import store from './store';
 // import { renderRoutes } from 'react-router-config';
 import './App.scss';
 
@@ -18,7 +20,8 @@ class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <Provider store={store}>
+        <HashRouter>
           <React.Suspense fallback={loading()}>
             <Switch>
               <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
@@ -28,7 +31,8 @@ class App extends Component {
               <Route path="/" name="Home" render={props => <DefaultLayout {...props}/>} />
             </Switch>
           </React.Suspense>
-      </HashRouter>
+        </HashRouter>
+      </Provider>
     );
   }
 }

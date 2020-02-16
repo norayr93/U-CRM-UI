@@ -1,0 +1,1 @@
+export const boundNotificationTimeout = (ms = 3000, callback) => setTimeout(() => callback(), ms);

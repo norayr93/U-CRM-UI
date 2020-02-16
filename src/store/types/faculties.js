@@ -1,0 +1,23 @@
+const typePrefix = 'faculties';
+
+export const CLEAR_ACTION_RESULT_FACULTIES = `${typePrefix}/CLEAR_ACTION_RESULT_FACULTIES`;
+
+export const GET_ALL_FACULTIES_REQUEST = `${typePrefix}/GET_ALL_FACULTIES_REQUEST`;
+export const GET_ALL_FACULTIES_SUCCESS = `${typePrefix}/GET_ALL_FACULTIES_SUCCESS`;
+export const GET_ALL_FACULTIES_FAIL = `${typePrefix}/GET_ALL_FACULTIES_FAIL`;
+
+export const GET_ONE_FACULTY_REQUEST = `${typePrefix}/GET_ONE_FACULTY_REQUEST`;
+export const GET_ONE_FACULTY_SUCCESS = `${typePrefix}/GET_ONE_FACULTY_SUCCESS`;
+export const GET_ONE_FACULTY_FAIL = `${typePrefix}/GET_ONE_FACULTY_FAIL`;
+
+export const CREATE_NEW_FACULTY_REQUEST = `${typePrefix}/CREATE_NEW_FACULTY_REQUEST`;
+export const CREATE_NEW_FACULTY_SUCCESS = `${typePrefix}/CREATE_NEW_FACULTY_SUCCESS`;
+export const CREATE_NEW_FACULTY_FAIL = `${typePrefix}/CREATE_NEW_FACULTY_FAIL`;
+
+export const UPDATE_FACULTY_REQUEST = `${typePrefix}/UPDATE_FACULTY_REQUEST`;
+export const UPDATE_FACULTY_SUCCESS = `${typePrefix}/UPDATE_FACULTY_SUCCESS`;
+export const UPDATE_FACULTY_FAIL = `${typePrefix}/UPDATE_FACULTY_FAIL`;
+
+export const DELETE_FACULTY_REQUEST = `${typePrefix}/DELETE_FACULTY_REQUEST`;
+export const DELETE_FACULTY_SUCCESS = `${typePrefix}/DELETE_FACULTY_SUCCESS`;
+export const DELETE_FACULTY_FAIL = `${typePrefix}/DELETE_FACULTY_FAIL`;
